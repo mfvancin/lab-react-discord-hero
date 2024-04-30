@@ -1,0 +1,76 @@
+#root {
+  width: 100vw;
+}
+
+.App{
+  background-color: #404FED;
+  padding: 24px 24px 0 24px;
+}
+
+.logo {
+  height: 25px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.menuImage {
+  transform: scale(30%);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: white; 
+  max-width: 300px;
+
+}
+
+.paragraph{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.container{
+  position: relative;
+  padding-top: 100px;
+}
+
+.downloadBtn{
+  color: #323538;
+  background-color: white;
+  border-radius: 25px;
+
+}
+
+.openDisord{
+  color: white;
+  background-color: #23272A;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+
+.background-image{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1px;
+}
